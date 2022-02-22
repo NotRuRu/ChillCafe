@@ -410,13 +410,6 @@ background-image: url("https://cdn.dribbble.com/users/99632/screenshots/11881481
 display: none;
 }
 
-.avatar-1EWyVD .avatarStack-3vfSFa {
-  border-radius: var(--avatar-radius);
-  background-position: 50%;
-  background-size: cover;
-  background-image: url("https://data.whicdn.com/images/356789437/original.gif");
-}
-
 .peopleListItem-u6dGxF[data-user-id="932710521084465292"] .avatarStack-3vfSFa , .peopleListItem-u6dGxF[vz-user-id="932710521084465292"] {
   border-radius: var(--avatar-radius);
   background-position: center;
