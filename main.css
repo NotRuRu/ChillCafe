@@ -1,33 +1,26 @@
 /**
 * @name AnimatedUsernames
 * @author NotRuRu#4136
-* @description Animated colorful names for you and your friends
-* @version 1.0.0
+* @description Animated colorful names for you and your friends. If you want to change anything, contact NotRuRu. Special thanks to Nyr4 for inspiration
+* @version 1.0.4
 * @Follow https://github.com/NotRuRu
-* Special Thanks to Nyr4 for inspiration
 */
 
-/* ═══════『 Important tips 』═══════
+/* ═══════『 Important tips 』
 *
-*   ➥ Each time you restart Discord animated Banner will be back to default simply re-enable theme and it will show up again.
-*
-*   ➥ All changes you commit will be only visible by you. If you want others who use the theme to see it too, contact NotRuRu.
+*   ➥ If you want to change anything, contact NotRuRu.
 *   
-*   ➥ Make sure emoji links end with .png?v=1 
-*      otherwise there is a chance that it wont work.
-*
 *   ➥ If you see Put Your ID Here that means you need to put your ID which should look something like this 943523814569017.
 *
-*   ➥ If you see Put Link Here that means you need to put Link of file you want to show something like this https://discordapp.com/jett.gif .
+*   ➥ If you see Put Link Here that means you need to put Link of file you want to show something like this https://website.com/jett.gif .
 *
 *   ➥ If you see Yellow underline next to -webkit-background-clip ignore it its supposed to be like that.
 *
-*   ➥ You can play with the values and see how it goes, don't delete "px" after the value if you don't have knowledges in CSS.
-*
-*   ➥ To change the colors, replace the HEX code with the one you picked here : https://htmlcolorcodes.com
 */
 
-/* ═══════『 Emoji next to your badges 』═══════ */
+/* 
+* Basics
+*  ➥Emoji next to your badges */
 .userPopout-2j1gM4[data-user-id=""] .profileBadges-2pItdR::before, .userPopout-2j1gM4[vz-user-id=""] {
   content: "";
   position: relative;
@@ -38,7 +31,7 @@
   background: url("") center/100% no-repeat;
 }
 
-/* ═══════『 Emoji next to your picture on member list 』═══════ */
+/* ➥Emoji next to your picture on member list */
 .member-2gU6Ar .wrapper-1VLyxH[data-user-id=""]::before, .member-2gU6Ar .wrapper-1VLyxH[vz-user-id=""]::before {
   content: "";
   position: absolute;
@@ -53,8 +46,7 @@
   pointer-events: none;
 }
 
-/* ═══════『 This is simply same text as above this message but instead of your ID put others,
-*           to make their Name also cool 😉 』═══════ */
+/* ➥Makes Activity text colorful */
 
 .textContent-TsKzji,.usernameFont-2oJxoI.username-vAneIW {
   color: transparent !important;
@@ -291,7 +283,7 @@ background-image: url("https://media.discordapp.net/attachments/9446268867834266
   height: 17px;
   margin: 1.5px 6px 0 0;
   pointer-events: none;
-  background: url("https://cdn.discordapp.com/emojis/943523944210763817.png?v=1") center/100% no-repeat;
+  background: url("https://cdn.discordapp.com/emojis/917110697509400617.gif") center/100% no-repeat;
 }
 /*Badge on memberlist*/
 .member-2gU6Ar .wrapper-1VLyxH[data-user-id="642783682603778071"]::before, .member-2gU6Ar .wrapper-1VLyxH[vz-user-id="642783682603778071"]::before {
@@ -302,7 +294,7 @@ background-image: url("https://media.discordapp.net/attachments/9446268867834266
   bottom: -3px;
   left: -5px;
   z-index: 2;          
-  background: url("https://cdn.discordapp.com/emojis/943523944210763817.png?v=1") no-repeat;
+  background: url("https://cdn.discordapp.com/emojis/917110697509400617.gif") no-repeat;
   background-size: 85%;
   border-radius: 0 5px 0 0;
   pointer-events: none;
