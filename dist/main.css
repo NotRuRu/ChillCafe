@@ -52,17 +52,36 @@
 
 /* Hover and Click animations */
 
- /* Channel hover and click animation */
+ /* Channels hover and click animation */
   .containerDefault-YUSmu3 {
     transition: all 0.5s;
   }
   .containerDefault-YUSmu3:hover {
+    background-color: var(--buttonihoverisas);
     transition: all 0.2s;
-    transform: translatex(-3px);
+    transform: translatex(-5px);
   }
   .containerDefault-YUSmu3:active {
     transition: all 0.2s;
     transform: translatex(1px);
+  }
+  .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ {
+    background-color: var(--buttonihoverisas);
+  }
+  .item-3XjbnG {
+    transition: all 0.5s;
+  }
+  .item-3XjbnG:hover {
+    background-color: var(--background-floating)!important;
+    transition: all 0.2s;
+    transform: translatex(-10px);
+  }
+  .item-3XjbnG:active {
+    transition: all 0.2s;
+    transform: translatex(1px);
+  }
+  .item-3XjbnG.selected-g-kMVV.themed-2-lozF {
+    background-color: var(--buttonihoverisas)!important ;
   }
 
  /* Member hover animation */
@@ -80,13 +99,22 @@
   }
   .wrapper-28eC3z:hover {
     transform: scale(1.1);
+}
+
+
+
+/* Colors */
+
+  :root {
+    --popouttextistvis: #8c1ebe;
+    --buttonihoverismere: #180c21;
+    --buttonihoverisas: #8442a8;
   }
 
  /*transparent call background*/
   .wrapper-1gVUIN, .minimum-fXpVNc, .border-2Vy6FN, .tile-2TcwiO, .flex-2S1XBF, .callContainer-HtHELf  {
     background: none!important;
   }
-
   .border-2Vy6FN.speaking-7QZEkv {
     webkit-box-shadow: inset 0 0 0 2px hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%),inset 0 0 0 3px #000;
     box-shadow: inset 0 0 0 2px hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%),inset 0 0 0 3px #000;
@@ -97,7 +125,6 @@
     right: 370px;
     border-radius: 200px;
   }
-
   .border-2Vy6FN {
     position: absolute;
     top: 190px;
@@ -105,9 +132,7 @@
     left: 370px;
     right: 370px;
     border-radius: 200px;
-}
-
-/* Colors */
+  }
 
  /* Spotify Control Colors*/
   .inner-WRV6k5 .contents-3ca1mk, .textScroller-dc9_kz {
@@ -185,10 +210,4 @@
   }
   .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
     background-color: var(--buttonihoverisas);
-}
-
-:root {
-  --popouttextistvis: #8c1ebe;
-  --buttonihoverismere: #180c21;
-  --buttonihoverisas: #8442a8;
 }
