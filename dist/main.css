@@ -56,8 +56,8 @@
   .containerDefault-YUSmu3 {
     transition: all 0.5s;
   }
-  .containerDefault-YUSmu3:hover {
-    background-color: var(--buttonihoverisas);
+  .containerDefault-YUSmu3:hover .content-1gYQeQ {
+    background-color: var(--background-floating);
     transition: all 0.2s;
     transform: translatex(-5px);
   }
