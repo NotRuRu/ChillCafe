@@ -384,6 +384,14 @@
     line-height: 18px;
     background-size: cover;
   }
+  [data-user-id="932710521084465292"] .userBio-2-tr00 {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    background: url(https://i.pinimg.com/originals/07/f6/2d/07f62d1a94872a0df392b033abd60045.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 
  /* Banner */
   .userPopout-2j1gM4[data-user-id="932710521084465292"] .avatarPositionNormal-2jWoC2, .userPopout-2j1gM4[vz-user-id="932710521084465292"] {
