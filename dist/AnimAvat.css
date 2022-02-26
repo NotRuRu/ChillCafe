@@ -359,7 +359,7 @@
     height: 17px;
     margin: 1.5px 6px 0 0;
     pointer-events: none;
-    background: url("https://cdn.discordapp.com/emojis/925774894942277652.gif") center/100% no-repeat;
+    background: url("https://cdn.discordapp.com/emojis/917109113589219388.gif") center/100% no-repeat;
   }
 
  /*Badge on memberlist*/
@@ -371,7 +371,7 @@
     bottom: -3px;
     left: -5px;
     z-index: 2;          
-    background: url("https://cdn.discordapp.com/emojis/925774894942277652.gif") no-repeat;
+    background: url("https://cdn.discordapp.com/emojis/917109113589219388.gif") no-repeat;
     background-size: 85%;
     border-radius: 0 5px 0 0;
     pointer-events: none;
@@ -379,11 +379,10 @@
 
  /*Custom About Me*/
   [data-user-id="932710521084465292"] .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {
-    color: Green;
-    background-image: url(https://c.tenor.com/KBe_nw4IL2QAAAAC/matrix-code.gif);
+    background-image: url(https://i.pinimg.com/originals/07/f6/2d/07f62d1a94872a0df392b033abd60045.jpg);
     font-size: 14px;
     line-height: 18px;
-    background-size: 90%;
+    background-size: cover;
   }
 
  /* Banner */
@@ -398,7 +397,7 @@
     background-position: 50%;
     background-size: cover;
     filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
-    background-image: url("https://cdn.dribbble.com/users/99632/screenshots/11881481/media/c93154ae61e5063729b5f8389b784d1d.gif");
+    background-image: url("https://c.tenor.com/l6u0sCzYdiwAAAAC/gura-roomba-gawr-gura.gif");
   }
 
   .root-8LYsGj[data-user-id="932710521084465292"] .banner-1YaD3N, .root-8LYsGj[vz-user-id="932710521084465292"] {
@@ -409,7 +408,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
-    background-image: url("https://cdn.dribbble.com/users/99632/screenshots/11881481/media/c93154ae61e5063729b5f8389b784d1d.gif");
+    background-image: url("https://c.tenor.com/l6u0sCzYdiwAAAAC/gura-roomba-gawr-gura.gif");
   }
 
  /*Avatar*/
@@ -427,11 +426,11 @@
     border-radius: var(--avatar-radius);
     background-position: center;
     background-size: 64px;
-    background-image: url("https://data.whicdn.com/images/356789437/original.gif");
+    background-image: url("https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif");
   }
 
   .message-2CShn3[data-author-id="932710521084465292"] img.avatar-2e8lTP, message-2CShn3[data-author-id="932710521084465292"] {
-    background-image: url(https://data.whicdn.com/images/356789437/original.gif) !important;
+    background-image: url(https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif) !important;
     background-position: center;
     background-size: 72px;
     overflow: hidden;
@@ -445,7 +444,7 @@
     border-radius: var(--avatar-radius);
     background-position: center;
     background-size: 64px;
-    background-image: url("https://data.whicdn.com/images/356789437/original.gif");
+    background-image: url("https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif");
   }
 
 
@@ -453,13 +452,13 @@
     border-radius: var(--avatar-radius);
     background-position: center;
     background-size: 142px;
-    background-image: url("https://data.whicdn.com/images/356789437/original.gif");
+    background-image: url("https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif");
   }
   .root-8LYsGj[data-user-id="932710521084465292"] .avatarStack-3vfSFa, .root-8LYsGj[vz-user-id="932710521084465292"] {
     border-radius: var(--avatar-radius);
     background-position: center;
    background-size: 180%;
-    background-image: url("https://data.whicdn.com/images/356789437/original.gif");   
+    background-image: url("https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif");   
 }
 
 
