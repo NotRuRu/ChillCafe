@@ -80,8 +80,8 @@
     transition: all 0.2s;
     transform: translatex(1px);
   }
-  .item-3XjbnG.selected-g-kMVV.themed-2-lozF {
-    background-color: var(--buttonihoverisas)!important ;
+  .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+    background-color: var!important;
   }
 
  /* Member hover animation */
