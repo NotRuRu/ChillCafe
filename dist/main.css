@@ -4,11 +4,94 @@
     display: none;
   }
   .childWrapper-1j_1ub {
-    background: url("") center/cover no-repeat !important;
+    background: url("Link Here") center/cover no-repeat !important;
 }
 
-/*Windows Buttons*/
 
+/*User Container Location*/
+  #app-mount .guilds-2JjMmN .tree-3agP2X {
+    outline: none !important;
+    margin-bottom: var(--user-area, 220px);
+  }
+  #app-mount .guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
+    bottom: calc(var(--user-area) + 10px);
+  }
+  #app-mount .panels-3wFtMD > .container-YkUktl {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    flex-direction: column-reverse;
+    padding: 0 0 24px;
+    width: var(--guilds-width, 72px);
+    height: auto;
+    border-top: none;
+  }
+  #app-mount .panels-3wFtMD > .container-YkUktl > [style="flex: 0 1 auto;"] {
+    flex-direction: column;
+    width: 100%;
+  }
+  #app-mount .panels-3wFtMD > .container-YkUktl > [style="flex: 0 1 auto;"] .button-12Fmur {
+    width: 100%;
+    border-radius: 0;
+    padding: 12px 0;
+    height: auto;
+  }
+  #app-mount .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW {
+    margin-right: 0;
+    margin-top: 12px;
+  }
+  #app-mount .panels-3wFtMD > .container-YkUktl .avatar-1EWyVD {
+    width: 42px !important;
+    height: 42px !important;
+  }
+  #app-mount .panels-3wFtMD > .container-YkUktl > .nameTag-sc-gpq {
+    display: none;
+  }
+  .button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F:hover {
+    color: var(--popouttextistvis);
+  }
+  .panels-3wFtMD > .container-YkUktl .button-12Fmur {
+    color: var(--background-accent);
+    cursor: pointer;
+}
+
+
+/*Windows Buttons*/
+  
+ /*Windows Buttons Location*/
+   :root {
+    --ToolBar-header-padding: 125px;
+  }
+  .platform-win .typeWindows-2-g3UY {
+    height: 9px;
+    margin-top: 0;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+  }
+  .platform-win .winButtonClose-3Q8ZH5 {
+    border-top-right-radius: var(--TB-tr-roundness);
+  }
+  .platform-win .winButton-3UMjdg {
+    position: relative;
+    top: calc(var(--TB-position-top, 0px) - 1px);
+    right: var(--TB-position-right, 0px);
+    height: var(--TB-height, 48px);
+    width: var(--TB-width, 40px);
+  }
+  .platform-win .winButton-3UMjdg:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .platform-win .container-ZMc96U {
+    padding-right: var(--ToolBar-header-padding);
+  }
+  .platform-win .wordmarkWindows-2dq6rw {
+    display: none;
+  }
+
+ /*Windows Button Style*/
   .winButton-3UMjdg:not(:last-child) > svg {
     display: none;
   }
@@ -50,6 +133,7 @@
     rx: 2px;
 }
 
+
 /* Hover and Click animations */
 
  /* Channels hover and click animation */
@@ -68,20 +152,24 @@
   .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ {
     background-color: var(--buttonihoverisas);
   }
-  .item-3XjbnG {
+  .topPill-3DJJNV .item-3XjbnG:hover {
+    background-color: var(--background-floating)!important;
+    transition: 0.5s;
+  }
+  .side-2ur1Qk .item-3XjbnG {
     transition: all 0.5s;
   }
-  .item-3XjbnG:hover {
+  .side-2ur1Qk .item-3XjbnG:hover {
     background-color: var(--background-floating)!important;
     transition: all 0.2s;
     transform: translatex(-10px);
   }
-  .item-3XjbnG:active {
+  .side-2ur1Qk .item-3XjbnG:active {
     transition: all 0.2s;
     transform: translatex(1px);
   }
   .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-    background-color: var!important;
+    background-color: var(--buttonihoverisas)!important;
   }
 
  /* Member hover animation */
@@ -102,9 +190,7 @@
 }
 
 
-
 /* Colors */
-
   :root {
     --popouttextistvis: #8c1ebe;
     --buttonihoverismere: #180c21;
@@ -158,12 +244,6 @@
   }
   .timeline-UWmgAx:hover .barFill-Dhkah7  {
     background-color: var(--popouttextistvis);
-  }
-
- /*Discord Logo on top left corner*/
-
-  .wordmarkWindows-2dq6rw path {
-    fill: var(--background-accent)
   }
 
  /* Main Theme Colors*/
