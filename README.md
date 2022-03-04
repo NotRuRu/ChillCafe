@@ -1,2 +1,2 @@
 # Special Theme made for Chill Café server
-![Pr
+![Preview](https://notruru.github.io/ChillCafe/assets/preview.png)
