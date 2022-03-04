@@ -141,7 +141,7 @@
     transition: all 0.5s;
   }
   .containerDefault-YUSmu3:hover .content-1gYQeQ {
-    background-color: var(--background-floating);
+    background-color: var(--buttonhoverisas);
     transition: all 0.2s;
     transform: translatex(-5px);
   }
@@ -153,14 +153,14 @@
     background-color: var(--buttonhoverismere);
   }
   .topPill-3DJJNV .item-3XjbnG:hover {
-    background-color: var(--background-floating)!important;
+    background-color: var(--buttonhoverisas)!important;
     transition: 0.5s;
   }
   .side-2ur1Qk .item-3XjbnG {
     transition: all 0.5s;
   }
   .side-2ur1Qk .item-3XjbnG:hover {
-    background-color: var(--background-floating)!important;
+    background-color: var(--buttonhoverisas)!important;
     transition: all 0.2s;
     transform: translatex(-10px);
   }
@@ -365,4 +365,7 @@
   }
   .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
     background-color: var(--buttonhoverismere);
+  }
+  .theme-dark .toolbar-3_r2xA .search-39IXmY .search-2Mwzzq .searchBar-jGtisZ{
+    background-color: var(--channeltextarea-background);
 }
