@@ -1,5 +1,13 @@
 @import url("https://notruru.github.io/ChillCafe/dist/Icons.css");
 
+/* Theme version */
+.info-3pQQBb::after {
+    content: "Chill Cafe v1.0.1";
+    text-transform: none !important;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text-muted);
+}
 /*Discord Icon in top corner
 
   .homeIcon-r0w4ny { 
