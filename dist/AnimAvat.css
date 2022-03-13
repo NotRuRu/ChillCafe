@@ -79,27 +79,6 @@
     background-image: linear-gradient( 90deg , black 0%, rgb(174, 0, 255) 25%, black 50%, #f700ff 75%, black 100%);
   }
 
- /*Only On Birthdays*/
-  .members-3WRCEx.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN .member-2gU6Ar.container-1oeRFJ.clickable-28SzVr[data-user-id="707971501244022794"] .layout-1qmrhw {
-    background-image: url(https://bestanimations.com/media/fireworks2/212323546ba-colorful-fireworks-animated-gif-pic.gif);
-    background-position: center;
-    filter: brightness(0.9);
-  }
-  .members-3WRCEx.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN .member-2gU6Ar.container-1oeRFJ.clickable-28SzVr[data-user-id="707971501244022794"] .layout-1qmrhw:hover{
-    background-image: url(https://bestanimations.com/media/fireworks2/212323546ba-colorful-fireworks-animated-gif-pic.gif);
-    background-position: center;
-    filter: brightness(0.9);
-  }
-  .members-3WRCEx.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN .member-2gU6Ar.container-1oeRFJ.selected-1-Z6gm[data-user-id="707971501244022794"] .layout-1qmrhw{
-    background-image: url(https://bestanimations.com/media/fireworks2/212323546ba-colorful-fireworks-animated-gif-pic.gif);
-    background-position: center;
-    filter: brightness(0.9);
-  }
-    .userPopout-2j1gM4[data-user-id="707971501244022794"] .aboutMeBody-1J8rhz.markup-eYLPri.clamped-2ZePhX {
-      background-image: url(https://bestanimations.com/media/fireworks2/212323546ba-colorful-fireworks-animated-gif-pic.gif);
-      background-position: center;
-    }
-
  /*Badge on popout*/
   .userPopout-2j1gM4[data-user-id="707971501244022794"] .profileBadges-2pItdR::before, .userPopout-2j1gM4[vz-user-id="707971501244022794"] {
     content: "";
@@ -108,7 +87,7 @@
     height: 17px;
     margin: 1.5px 6px 0 0;
     pointer-events: none;
-    background: url("https://discord.com/assets/496cd7d4bfc59cdf6cd8a3285b42b576.svg") center/100% no-repeat;
+    background: url("https://cdn.discordapp.com/emojis/925774894942277652.gif") center/100% no-repeat;
   }
 
  /*Badge on memberlist*/
@@ -120,7 +99,7 @@
     bottom: -3px;
     left: -5px;
     z-index: 2;          
-    background: url("https://discord.com/assets/496cd7d4bfc59cdf6cd8a3285b42b576.svg") no-repeat;
+    background: url("https://cdn.discordapp.com/emojis/925774894942277652.gif") no-repeat;
     background-size: 85%;
     border-radius: 0 5px 0 0;
     pointer-events: none;
