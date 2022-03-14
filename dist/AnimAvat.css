@@ -418,7 +418,7 @@
     background-position: 50%;
     background-size: cover;
     filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
-    background-image: url("https://c.tenor.com/l6u0sCzYdiwAAAAC/gura-roomba-gawr-gura.gif");
+    background-image: url("https://i.pinimg.com/originals/f8/49/2b/f8492b4ce371009e9f7b545d97a75609.gif");
   }
 
   .root-8LYsGj[data-user-id="932710521084465292"] .banner-1YaD3N, .root-8LYsGj[vz-user-id="932710521084465292"] {
@@ -429,7 +429,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
-    background-image: url("https://c.tenor.com/l6u0sCzYdiwAAAAC/gura-roomba-gawr-gura.gif");
+    background-image: url("https://i.pinimg.com/originals/f8/49/2b/f8492b4ce371009e9f7b545d97a75609.gif");
   }
 
  /*Avatar*/
@@ -447,11 +447,11 @@
     border-radius: var(--avatar-radius);
     background-position: center;
     background-size: 64px;
-    background-image: url("https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif");
+    background-image: url("https://64.media.tumblr.com/4b3a3440a328a1a552ba9f1df692bca4/tumblr_pkkpp69ibg1vc75hp_500.gif");
   }
 
   .message-2CShn3[data-author-id="932710521084465292"] img.avatar-2e8lTP, message-2CShn3[data-author-id="932710521084465292"] {
-    background-image: url(https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif) !important;
+    background-image: url(https://64.media.tumblr.com/4b3a3440a328a1a552ba9f1df692bca4/tumblr_pkkpp69ibg1vc75hp_500.gif) !important;
     background-position: center;
     background-size: 72px;
     overflow: hidden;
@@ -465,7 +465,7 @@
     border-radius: var(--avatar-radius);
     background-position: center;
     background-size: 64px;
-    background-image: url("https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif");
+    background-image: url("https://64.media.tumblr.com/4b3a3440a328a1a552ba9f1df692bca4/tumblr_pkkpp69ibg1vc75hp_500.gif");
   }
 
 
@@ -473,13 +473,13 @@
     border-radius: var(--avatar-radius);
     background-position: center;
     background-size: 142px;
-    background-image: url("https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif");
+    background-image: url("https://64.media.tumblr.com/4b3a3440a328a1a552ba9f1df692bca4/tumblr_pkkpp69ibg1vc75hp_500.gif");
   }
   .root-8LYsGj[data-user-id="932710521084465292"] .avatarStack-3vfSFa, .root-8LYsGj[vz-user-id="932710521084465292"] {
     border-radius: var(--avatar-radius);
     background-position: center;
    background-size: 180%;
-    background-image: url("https://i.pinimg.com/originals/87/1a/7b/871a7b273fb5af8afcac60649ea8b4f6.gif");   
+    background-image: url("https://64.media.tumblr.com/4b3a3440a328a1a552ba9f1df692bca4/tumblr_pkkpp69ibg1vc75hp_500.gif");   
 }
 
 
