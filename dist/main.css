@@ -305,10 +305,10 @@
     color: var(--background-accent);
   }
   .contentImagesUserPopout-Kqai8z.content-tXPNDw {
-    color: var(--spotifycolor)!important;
+    color: var(--background-accent)!important;
   }
   .timeBarUserPopout-qLXZaR .bar-1GpknY .barInner-3dHef4{
-    background-color: var(--background-accent);
+    background-color: var(--spotifycolor);
   }
   .timeline-UWmgAx .barFill-Dhkah7  {
     background-color: var(--spotifycolor);
