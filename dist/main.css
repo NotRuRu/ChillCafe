@@ -245,13 +245,33 @@
 
 /* Colors */
   :root {
-    --spotifycolor: #1aa11a;
-    --popouttextistvis: #1ebe1e;
-    --buttonhoverisas: #1b4b25;
-    --buttonhoverismere: #42a958;
+    --spotifycolor: #467fad;
+    --popouttextistvis: #3ba5dd;
+    --buttonhoverisas: #205a79;
+    --buttonhoverismere: #3ba5dd;
+  }
+ /* Makes Top Member category colorful(meant to be for this server only,but currently cant fix so it goes on all servers)*/
+  .membersGroup-2eiWxl.container-q97qHp:nth-child(2) {
+    color: transparent !important;
+    font-weight: bold;
+    background-size: 300%;
+    -webkit-animation: shine 5s linear infinite;
+    animation: shine 5s linear infinite;
+    -webkit-background-clip: text;
+    background-image: linear-gradient( 45deg , orange, yellow, green, blue, indigo, violet, red);
   }
 
- /*transparent call background*/
+ /* Checked Button Color */
+  [style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+    background: var(--buttonhoverismere)!important;
+  }
+
+ /* The unchecked checkbox's bg color */
+  [style^="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
+    background: #72767d !important;
+  }
+
+ /* Transparent call background */
   .wrapper-1gVUIN, .minimum-fXpVNc, .border-2Vy6FN, .tile-2TcwiO, .flex-2S1XBF, .callContainer-HtHELf  {
     background: none!important;
   }
@@ -285,7 +305,7 @@
     color: var(--background-accent);
   }
   .contentImagesUserPopout-Kqai8z.content-tXPNDw {
-    color: var(--background-accent)!important;
+    color: var(--spotifycolor)!important;
   }
   .timeBarUserPopout-qLXZaR .bar-1GpknY .barInner-3dHef4{
     background-color: var(--background-accent);
