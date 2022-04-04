@@ -193,6 +193,9 @@
     height: 100%;
     width: 100%
   }
+  .icon-2W8DHg {
+    color: var(--icon-color)
+  }
   .container-1NXEtd .containerDefault-YUSmu3.selected-2TbFuo .iconContainer-21RCa3 svg path, .container-1NXEtd .containerDragAfter-3aBiOW.selected-2TbFuo .iconContainer-21RCa3 svg path, .container-1NXEtd .containerDragBefore-1s5Qg6.selected-2TbFuo .iconContainer-21RCa3 svg path {
     fill: var(--icon-color);
 }
