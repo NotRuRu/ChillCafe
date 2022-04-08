@@ -45,6 +45,25 @@
     pointer-events: none;
   }
 
+ /*Custom About Me*/
+  [data-user-id=""] .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {
+    background-image: url();
+    filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
+    font-size: 14px;
+    line-height: 18px;
+    background-size: cover;
+    
+  }
+  [data-user-id=""] .userBio-2-tr00 {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    background: url();
+    filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
+    background-size: cover;
+    background-position: center;
+  }
+
  /* ➥Makes Activity text colorful */
 
   .textContent-TsKzji,.usernameFont-2oJxoI.username-vAneIW {
@@ -390,25 +409,6 @@
     pointer-events: none;
   }
 
- /*Custom About Me*/
-  [data-user-id="484358084324622343"] .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {
-    background-image: url(https://media.discordapp.net/attachments/862169874917883904/960533530004316170/jett-valorant.gif);
-    filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
-    font-size: 14px;
-    line-height: 18px;
-    background-size: cover;
-    
-  }
-  [data-user-id="484358084324622343"] .userBio-2-tr00 {
-    margin-bottom: 16px;
-    font-size: 14px;
-    line-height: 18px;
-    background: url(https://media.discordapp.net/attachments/862169874917883904/960533530004316170/jett-valorant.gif);
-    filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
-    background-size: cover;
-    background-position: center;
-  }
-
  /* Banner */
   .userPopout-2j1gM4[data-user-id="484358084324622343"] .avatarPositionNormal-2jWoC2, .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
     top: 76px;
@@ -434,55 +434,6 @@
     filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
     background-image: url("https://c.tenor.com/spsYr5B_MWMAAAAd/valorant-chamber-valorant.gif");
   }
-
- /*Avatar*/
-  .member-2gU6Ar[data-user-id="484358084324622343"] .avatar-b5OQ1N,
-  .member-2gU6Ar[vz-user-id="484358084324622343"] .avatar-b5OQ1N,
-  .peopleListItem-u6dGxF[data-user-id="484358084324622343"] .avatar-b5OQ1N ,
-  .peopleListItem-u6dGxF[vz-user-id="484358084324622343"] .avatar-b5OQ1N,
-  .userPopout-2j1gM4[data-user-id="484358084324622343"] .avatar-b5OQ1N,
-  .userPopout-2j1gM4[vz-user-id="484358084324622343"] .avatar-b5OQ1N,
-  .root-8LYsGj[data-user-id="484358084324622343"] .avatar-b5OQ1N {
-  display: none;
-  }
-
-  .peopleListItem-u6dGxF[data-user-id="484358084324622343"] .avatarStack-3vfSFa , .peopleListItem-u6dGxF[vz-user-id="484358084324622343"] {
-    border-radius: var(--avatar-radius);
-    background-position: center;
-    background-size: 64px;
-    background-image: url("https://cdn.discordapp.com/attachments/862169874917883904/960533877930205274/jett-valorant.gif");
-  }
-
-  .message-2CShn3[data-author-id="484358084324622343"] img.avatar-2e8lTP, message-2CShn3[data-author-id="484358084324622343"] {
-    background-image: url(https://cdn.discordapp.com/attachments/862169874917883904/960533877930205274/jett-valorant.gif) !important;
-    background-position: center;
-    background-size: 72px;
-    overflow: hidden;
-    width: 10px;
-    height: 10px;
-    padding: 40px 40px 0 0;
-    box-sizing: border-box;
-  }
-
-  .member-2gU6Ar[data-user-id="484358084324622343"] .avatarStack-3vfSFa , .member-2gU6Ar[vz-user-id="484358084324622343"] {
-    border-radius: var(--avatar-radius);
-    background-position: center;
-    background-size: 64px;
-    background-image: url("https://cdn.discordapp.com/attachments/862169874917883904/960533877930205274/jett-valorant.gif");
-  }
-
-
-  .userPopout-2j1gM4[data-user-id="484358084324622343"] .avatarStack-3vfSFa , .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
-    border-radius: var(--avatar-radius);
-    background-position: center;
-    background-size: 142px;
-    background-image: url("https://cdn.discordapp.com/attachments/862169874917883904/960533877930205274/jett-valorant.gif");
-  }
-  .root-8LYsGj[data-user-id="484358084324622343"] .avatarStack-3vfSFa, .root-8LYsGj[vz-user-id="484358084324622343"] {
-    border-radius: var(--avatar-radius);
-    background-position: center;
-   background-size: 180%;
-    background-image: url("https://cdn.discordapp.com/attachments/862169874917883904/960533877930205274/jett-valorant.gif");   
 }
 
 
