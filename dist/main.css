@@ -325,7 +325,7 @@
   #app-mount .sidebar-1tnWFu .container-1NXEtd[aria-label*="Chill Café"] .colorInteractiveActive-30E9n8.size12-oc4dx4.goalText-mbRUAP:after {
     content: "Goal: LVL 3";
     color: var(--interactive-active); /* set color to original text color */
-    margin-left: -66px; /* margin-left equals length of text we're replacing */
+    margin-left: -60px; /* margin-left equals length of text we're replacing */
   }
   #app-mount .sidebar-1tnWFu .container-1NXEtd[aria-label*="Chill Café"] .content-2a4AW9 .progressFraction-LUvqt3 .colorInteractiveNormal-36ZhyZ.size12-oc4dx4 > strong {
     color: transparent;
