@@ -1,9 +1,3 @@
-/**
-* @name AnimatedUsernames
-* @author NotRuRu#4136
-* @description Animated colorful names for you and your friends. If you want to change anything, contact NotRuRu.
-* @version 1.0.4
-*/
 
 /* ═══════『 Important tips 』
 *
@@ -19,7 +13,22 @@
 
 /* 
 * Basics
-*  ➥Emoji next to your badges */
+
+/* Adds Server icon next to about me title( Premium feature that only shows up  when using different About me per server) 
+  .userPopout-2j1gM4[data-user-id="484358084324622343"] .userInfoTitle-39qq0Y::after, .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
+    content: "";
+    pointer-events: none;
+    position: relative;
+    background-clip: padding-box;
+    background-position: 50%;
+    background-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    border-radius: 4px;
+    background-image: url("https://cdn.discordapp.com/icons/688811789437239414/b90e43cef1a4fa80f8bb2ec7a1a792d8.webp?size=20");
+  }
+ /*  ➥Emoji next to your badges 
   .userPopout-2j1gM4[data-user-id=""] .profileBadges-2pItdR::before, .userPopout-2j1gM4[vz-user-id=""] {
     content: "";
     position: relative;
@@ -30,7 +39,7 @@
      background: url("") center/100% no-repeat;
   }
 
- /* ➥Emoji next to your picture on member list */
+ /* ➥Emoji next to your picture on member list 
   .member-2gU6Ar .wrapper-1VLyxH[data-user-id=""]::before, .member-2gU6Ar .wrapper-1VLyxH[vz-user-id=""]::before {
     content: "";
     position: absolute;
@@ -45,21 +54,20 @@
     pointer-events: none;
   }
 
- /*Custom About Me*/
+ /*Custom About Me*
   [data-user-id=""] .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {
     background-image: url();
-    filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
+    filter: blur(0px); /*Making value higher makes image more blurry Default (0px)
     font-size: 14px;
     line-height: 18px;
-    background-size: cover;
-    
+    background-size: cover;   
   }
   [data-user-id=""] .userBio-2-tr00 {
     margin-bottom: 16px;
     font-size: 14px;
     line-height: 18px;
     background: url();
-    filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
+    filter: blur(0px); /*Making value higher makes image more blurry Default (0px)
     background-size: cover;
     background-position: center;
   }
@@ -394,6 +402,17 @@
     background: url("https://cdn.discordapp.com/emojis/917109113589219388.gif") center/100% no-repeat;
   }
 
+ /*Fake Discord Nitro Badge(Just Decoration)*/
+  .userPopout-2j1gM4[data-user-id="484358084324622343"] .profileBadges-2pItdR::after, .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
+    content: "";
+    position: relative;
+    width: 20px;
+    height: 17px;
+    margin: 1.5px 6px 0 0;
+    pointer-events: none;
+    background: url(/assets/24d05f3b46a110e538674edbac0db4cd.svg) center/105%;
+  }
+
  /*Badge on memberlist*/
   .member-2gU6Ar .wrapper-1VLyxH[data-user-id="484358084324622343"]::before, .member-2gU6Ar .wrapper-1VLyxH[vz-user-id="484358084324622343"]::before {
     content: "";
@@ -433,7 +452,6 @@
     background-size: cover;
     filter: blur(0px); /*Making value higher makes image more blurry Default (0px)*/
     background-image: url("https://c.tenor.com/spsYr5B_MWMAAAAd/valorant-chamber-valorant.gif");
-  }
 }
 
 
