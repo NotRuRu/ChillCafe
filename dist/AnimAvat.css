@@ -15,7 +15,7 @@
 * Basics
 
 /* Adds Server icon next to about me title( Premium feature that only shows up  when using different About me per server) 
-  .userPopout-2j1gM4[data-user-id="484358084324622343"] .userInfoTitle-39qq0Y::after, .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
+  .userPopout-2j1gM4[data-user-id="932710521084465292"] .userInfoTitle-39qq0Y::after, .userPopout-2j1gM4[vz-user-id="932710521084465292"] {
     content: "";
     pointer-events: none;
     position: relative;
@@ -370,18 +370,18 @@
 }
 
 /* ═══════『 Ruru 』═══════ */
-  .message-2CShn3[data-user-id="484358084324622343"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
-  .message-2CShn3[data-author-id="484358084324622343"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
-  .message-2CShn3[vz-user-id="484358084324622343"] .username-h_Y3Us,
-  .peopleListItem-u6dGxF[data-user-id="484358084324622343"] .username-3JLfHz,
-  .peopleListItem-u6dGxF[vz-user-id="484358084324622343"] .username-3JLfHz,
-  .channel-1Shao0[data-user-id="484358084324622343"] .overflow-1wOqNV,
-  .channel-1Shao0[vz-user-id="484358084324622343"] .overflow-1wOqNV,
-  .member-2gU6Ar[data-user-id="484358084324622343"] .roleColor-nA7BqX,
-  .member-2gU6Ar[vz-user-id="484358084324622343"] .roleColor-nA7BqX,
-  .userPopout-2j1gM4[data-user-id="484358084324622343"] .username-3JLfHz,
-  .userPopout-2j1gM4[vz-user-id="484358084324622343"] .username-3JLfHz,
-  .root-8LYsGj[data-user-id="484358084324622343"] .username-3JLfHz {
+  .message-2CShn3[data-user-id="932710521084465292"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+  .message-2CShn3[data-author-id="932710521084465292"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+  .message-2CShn3[vz-user-id="932710521084465292"] .username-h_Y3Us,
+  .peopleListItem-u6dGxF[data-user-id="932710521084465292"] .username-3JLfHz,
+  .peopleListItem-u6dGxF[vz-user-id="932710521084465292"] .username-3JLfHz,
+  .channel-1Shao0[data-user-id="932710521084465292"] .overflow-1wOqNV,
+  .channel-1Shao0[vz-user-id="932710521084465292"] .overflow-1wOqNV,
+  .member-2gU6Ar[data-user-id="932710521084465292"] .roleColor-nA7BqX,
+  .member-2gU6Ar[vz-user-id="932710521084465292"] .roleColor-nA7BqX,
+  .userPopout-2j1gM4[data-user-id="932710521084465292"] .username-3JLfHz,
+  .userPopout-2j1gM4[vz-user-id="932710521084465292"] .username-3JLfHz,
+  .root-8LYsGj[data-user-id="932710521084465292"] .username-3JLfHz {
     color: transparent !important;
     font-weight: bold;
     background-size: 300%;
@@ -392,7 +392,7 @@
   }
 
  /*Badge on popout*/
-  .userPopout-2j1gM4[data-user-id="484358084324622343"] .profileBadges-2pItdR::before, .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
+  .userPopout-2j1gM4[data-user-id="932710521084465292"] .profileBadges-2pItdR::before, .userPopout-2j1gM4[vz-user-id="932710521084465292"] {
     content: "";
     position: relative;
     width: 20px;
@@ -403,7 +403,7 @@
   }
 
  /*Fake Discord Nitro Badge(Just Decoration)*/
-  .userPopout-2j1gM4[data-user-id="484358084324622343"] .profileBadges-2pItdR::after, .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
+  .userPopout-2j1gM4[data-user-id="932710521084465292"] .profileBadges-2pItdR::after, .userPopout-2j1gM4[vz-user-id="932710521084465292"] {
     content: "";
     position: relative;
     width: 20px;
@@ -414,7 +414,7 @@
   }
 
  /*Badge on memberlist*/
-  .member-2gU6Ar .wrapper-1VLyxH[data-user-id="484358084324622343"]::before, .member-2gU6Ar .wrapper-1VLyxH[vz-user-id="484358084324622343"]::before {
+  .member-2gU6Ar .wrapper-1VLyxH[data-user-id="932710521084465292"]::before, .member-2gU6Ar .wrapper-1VLyxH[vz-user-id="932710521084465292"]::before {
     content: "";
     position: absolute;
     width: 18px;
@@ -429,11 +429,11 @@
   }
 
  /* Banner */
-  .userPopout-2j1gM4[data-user-id="484358084324622343"] .avatarPositionNormal-2jWoC2, .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
+  .userPopout-2j1gM4[data-user-id="932710521084465292"] .avatarPositionNormal-2jWoC2, .userPopout-2j1gM4[vz-user-id="932710521084465292"] {
     top: 76px;
   }
 
-  .userPopout-2j1gM4[data-user-id="484358084324622343"] .banner-1YaD3N, .userPopout-2j1gM4[vz-user-id="484358084324622343"] {
+  .userPopout-2j1gM4[data-user-id="932710521084465292"] .banner-1YaD3N, .userPopout-2j1gM4[vz-user-id="932710521084465292"] {
     width: 300px;
     height: 120px;
     background-repeat: no-repeat;
@@ -443,7 +443,7 @@
     background-image: url("https://media.discordapp.net/attachments/862183283201671168/965773497211179058/Kitty.png");
   }
 
-  .root-8LYsGj[data-user-id="484358084324622343"] .banner-1YaD3N, .root-8LYsGj[vz-user-id="484358084324622343"] {
+  .root-8LYsGj[data-user-id="932710521084465292"] .banner-1YaD3N, .root-8LYsGj[vz-user-id="932710521084465292"] {
     width: 600px;
     height: 240px;
     position: relative;
