@@ -98,7 +98,7 @@
     --icon: var(--advanced-tab)
   }
   .item-3XjbnG[aria-controls="customcss-tab"]::before{
-  --icon: var(--user-profile);
+  --icon: var(--developer-serrings);
   }
   .item-3XjbnG[aria-controls="plugins-tab"]::before{
   --icon: var(--windows-settings);
@@ -134,3 +134,81 @@
   	transform: rotate(180deg);
 	  transform-origin: 50%;
 }
+
+/* This is for Servers settings*/
+
+/* Removes lines and puts boost statuts next to community*/
+.side-2ur1Qk .separator-2wx7h6 {
+    visibility: hidden;  
+    }
+    .serverBoostTabItem-3QwA3W.item-3XjbnG.themed-2-lozF {
+    position: absolute;
+    bottom: 327px;
+  }
+  /* Server settings in order*/
+    .item-3XjbnG[aria-controls=overview-tab]::before {
+    --icon: var(--overview-settings);
+    }
+    .item-3XjbnG[aria-controls=roles-tab]::before {
+    --icon: var(--roles-settings);
+    }
+    .item-3XjbnG[aria-controls=emoji-tab]::before {
+    --icon: var(--emoji-settings);
+    }
+    .item-3XjbnG[aria-controls=stickers-tab]::before {
+    --icon: var(--stickers-settings);
+    }
+    .item-3XjbnG[aria-controls=moderation-tab]::before {
+    --icon: var(--moderation-settings);
+    }
+    .item-3XjbnG[aria-controls=audit_log-tab]::before {
+    --icon: var(--audit-log-settings);
+    }
+    .item-3XjbnG[aria-controls=integrations-tab]::before {
+    --icon: var(--integrations-settings);
+    }
+    .item-3XjbnG[aria-controls=widget-tab]::before {
+    --icon: var(--widget-settings);
+    }
+    .item-3XjbnG[aria-controls=guild_templates-tab]::before {
+    --icon: var(--server-template-settings);
+    }
+    .item-3XjbnG[aria-controls=vanity_url-tab]::before {
+    --icon: var(--custom-invite-link-settings);
+  }
+  
+  /* Community settings in order*/
+    .item-3XjbnG[aria-controls=community-tab]::before {
+    --icon: var(--enable-community-settings);
+    }
+    .item-3XjbnG[aria-controls=analytics-tab]::before {
+    --icon: var(--server-insights-settings);
+    }
+    .item-3XjbnG[aria-controls=partner-tab]::before {
+    --icon: var(--partner-program-settings);
+    }
+    .item-3XjbnG[aria-controls=discovery-tab]::before {
+    --icon: var(--discovery-settings);
+    }
+    .item-3XjbnG[aria-controls=member_verification-tab]::before {
+    --icon: var(--membership-screening-settings);
+    }
+    .item-3XjbnG[aria-controls=community_welcome-tab]::before {
+    --icon: var(--community-welcome-tab-settings);
+    }
+    .item-3XjbnG[aria-controls=guild_premium-tab]::before {
+    --icon: var(--server-boost-status-settings);
+    }
+  /* User Management settings in order*/
+    .item-3XjbnG[aria-controls=members-tab]::before {
+    --icon: var(--members-settings);
+    }  
+    .item-3XjbnG[aria-controls=instant_invites-tab]::before {
+    --icon: var(--instant-invite-settings);
+    }
+    .item-3XjbnG[aria-controls=bans-tab]::before {
+    --icon: var(--bans-settings);
+    }  
+    .item-3XjbnG[aria-controls=delete-tab]::before {
+    --icon: var(--delete-server-settings);
+  }

@@ -10,6 +10,8 @@
 @import url("https://notruru.github.io/ChillCafe/dist/Extras/BetterLinks.css");
 /* This changes how settings icons look on Discord */
 @import url("https://notruru.github.io/ChillCafe/dist/Extras/SettingsIcons+Custom.css");
+/* This colors discords default svgs */
+@import url("https://notruru.github.io/ChillCafe/dist/Extras/ColoredSVG.css");
 
  /* Theme version */
   .info-3pQQBb::after {
@@ -33,51 +35,119 @@
 }
 
  /* User Container Location */
-  #app-mount .guilds-2JjMmN .tree-3agP2X {
-    outline: none !important;
-    margin-bottom: var(--user-area, 220px);
-  }
-  #app-mount .guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
-    bottom: calc(var(--user-area) + 10px);
-  }
-  #app-mount .panels-3wFtMD > .container-YkUktl {
+  .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    flex-direction: column-reverse;
-    padding: 0 0 24px;
-    width: var(--guilds-width, 72px);
-    height: auto;
-    border-top: none;
-  }
-  #app-mount .panels-3wFtMD > .container-YkUktl > [style="flex: 0 1 auto;"] {
+    bottom: calc(0% + 155px);
+    left: 10px;
+    width: 30px;
+    z-index: 101;
+    max-height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
     flex-direction: column;
-    width: 100%;
+    padding: 0px 10px;
   }
-  #app-mount .panels-3wFtMD > .container-YkUktl > [style="flex: 0 1 auto;"] .button-12Fmur {
-    width: 100%;
-    border-radius: 0;
-    padding: 12px 0;
-    height: auto;
+  .container-YkUktl:last-child .flex-2S1XBF>button {
+    padding: 25px !important;
+    margin: 0px;
+    color: var(--blurple-alt);
+    border-radius: var(--radius-primary);
+    transition: ease 0.3s;
   }
-  #app-mount .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW {
-    margin-right: 0;
-    margin-top: 12px;
+  .container-YkUktl:last-child .flex-2S1XBF>button:last-child {
+    margin-top: 5px;
+    padding: 25px !important;
+    position: fixed;
+    bottom: calc(0% + 90px);
+    color: var(--blurple-alt);
+    border-radius: 15px;
+    background: var(--background-secondary);
+    transition: ease 0.3s;
   }
-  #app-mount .panels-3wFtMD > .container-YkUktl .avatar-1EWyVD {
-    width: 42px !important;
-    height: 42px !important;
+  .container-YkUktl:last-child .flex-2S1XBF>button:hover,
+  .container-YkUktl:last-child .flex-2S1XBF>button:last-child:hover {
+    background: var(--blurple-bg);
+    color: var(--popouttextistvis);
+    border-radius: 50%;
   }
-  #app-mount .panels-3wFtMD > .container-YkUktl > .nameTag-sc-gpq {
+  .panels-3wFtMD>.container-YkUktl:last-child>.avatarWrapper-1B9FTW {
+    position: fixed;
+    bottom: calc(0% + 20px);
+    left: 13.5px;
+  }
+  .panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD {
+    width: 55px !important;
+    height: 55px !important;
+    border-radius: 50% !important;
+  }
+  .panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD>svg {
+    width: 55px;
+    height: 55px;
+    border-radius: 50% !important;
+  }
+  .panels-3wFtMD>div:last-child {
+    margin-bottom: 0px;
+    height: 0;
+    width: 0;
+  }
+  .panels-3wFtMD>div:last-child .nameTag-sc-gpq.canCopy-IgTwyV {
     display: none;
   }
-  .button-12Fmur.enabled-9OeuTA.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F:hover {
-    color: var(--popouttextistvis);
+  .withTagAsButton-OsgQ9L:hover,
+  .withTagless-10ooWt:hover {
+    background: transparent;
   }
-  .panels-3wFtMD > .container-YkUktl .button-12Fmur {
-    color: var(--background-accent);
-    cursor: pointer;
+  .guilds-2JjMmN {
+    background: var(--background-tertiary-alt);
+    border-radius: var(--radius-primary);
   }
+  .guilds-2JjMmN .scrollerBase-_bVAAt {
+    max-height: calc(100% - 275px) !important;
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    padding-bottom: 52px;
+  }
+  .guilds-2JjMmN .scrollerBase-_bVAAt div:nth-child(4) {
+    align-items: center;
+  }
+  .unreadMentionsIndicatorBottom-3RJMnQ {
+    bottom: 300px;
+  }
+
+/* Game activity toggle */
+  button[aria-label="Hide Game Activity"],
+  button[aria-label="Show Game Activity"] {
+    background: var(--background-secondary);
+    border-radius: 10px 10px 0px 0px !important;
+  }
+  button[aria-label="Hide Game Activity"]:hover,
+  button[aria-label="Show Game Activity"]:hover {
+    border-radius: 50% !important;
+  }
+  button[aria-label="Hide Game Activity"]::after,
+  button[aria-label="Show Game Activity"]::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    z-index: -101;
+    background: var(--background-secondary);
+    border-radius: 10px 10px 0px 0px !important;
+  }
+  button[aria-label="Hide Game Activity"]::before,
+  button[aria-label="Show Game Activity"]::before {
+    content: "";
+    position: absolute;
+    background: var(--background-tertiary-alt);
+    width: 70px;
+    height: 70px;
+    left: -10px;
+    z-index: -101;
+    top: -20px;
+}
 
 /* Compact Status Bar */
   #status-picker .scrollerBase-_bVAAt {
