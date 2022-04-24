@@ -433,11 +433,17 @@
   /* Explore/Discover Icon */
   [d="M12 10.9C11.39 10.9 10.9 11.39 10.9 12C10.9 12.61 11.39 13.1 12 13.1C12.61 13.1 13.1 12.61 13.1 12C13.1 11.39 12.61 10.9 12 10.9ZM12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM14.19 14.19L6 18L9.81 9.81L18 6L14.19 14.19Z"] {
 	d: path(var(--compass));
+  color: var(--buttonhoverismere);
   }
   /* Server add icon */
   [d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.8889H20V11.1111Z"] {
 	d: path(var(--add-tiny));
 	transform: scale(4) translate(-13.5px, -12px);
+  color: var(--buttonhoverismere);
+  }
+  .circleIconButton-1VxDrg.selected-2r1Hvo {
+    color: var(--buttonhoverismere);
+    background-color: var(--buttonhoverisas);
   }
   /* Message Icon */
   [d="M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z"] {

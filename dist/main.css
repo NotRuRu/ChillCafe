@@ -262,7 +262,7 @@
 /* Windows Buttons */
   
  /* Windows Buttons Location */
- 
+
  /* Hides Discord icon on top left corner*/
   .wordmarkWindows-2dq6rw {
     opacity: 0;
@@ -605,7 +605,7 @@
     --radius-primary: 10px;
     --blurple: #7E7BFE;
     --blurple-hover: #7E7BFEcc;
-    --blurple-alt: #ADA9F5;
+    --blurple-alt: var(--buttonhoverismere);
     --blurple-bg: var(--buttonhoverisas);
     --blurple-bg-alt: #6C6AFF;
     --blurple-replace: var(--blurple);
