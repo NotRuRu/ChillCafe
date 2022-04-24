@@ -603,11 +603,11 @@
   :root {
     --radius-secondary: 6px;
     --radius-primary: 10px;
-    --blurple: #7E7BFE;
-    --blurple-hover: #7E7BFEcc;
+    --blurple: var(--buttonhoverismere);;
+    --blurple-hover: var(--buttonhoverismere);;
     --blurple-alt: var(--buttonhoverismere);
     --blurple-bg: var(--buttonhoverisas);
-    --blurple-bg-alt: #6C6AFF;
+    --blurple-bg-alt: var(--buttonhoverisas);
     --blurple-replace: var(--blurple);
     --brand-experiment: var(--blurple);
     --brand-experiment-hover: var(--blurple-hover);
