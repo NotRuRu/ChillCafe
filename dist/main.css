@@ -8,10 +8,12 @@
 @import url("https://notruru.github.io/ChillCafe/dist/Extras/EmojiReplacer.css");
 /* This changes how links look on Discord */
 @import url("https://notruru.github.io/ChillCafe/dist/Extras/BetterLinks.css");
+/* This changes how settings icons look on Discord */
+@import url("https://notruru.github.io/ChillCafe/dist/Extras/SettingsIcons+Custom.css");
 
  /* Theme version */
   .info-3pQQBb::after {
-    content: "Chill Cafe v1.5.3";
+    content: "Chill Cafe v1.8.2";
     text-transform: none !important;
     font-size: 12px;
     line-height: 16px;
